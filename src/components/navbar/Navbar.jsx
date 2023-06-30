@@ -18,6 +18,10 @@ const Navbar = () => {
                     <p><a href="#blog">Library</a></p>
                 </div>
             </div>
+            <div className='gpt3__navbar-sign'>
+                <p>Sign In</p>
+                <button type="button">Sign Up</button>
+            </div>
         </div>
     )
 }

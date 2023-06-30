@@ -40,7 +40,6 @@
   font-size: 18px;
   line-height: 25px;
   text-transform: capitalize;
-
   font-size: 18px;
   font-family: Manrope;
   font-style: normal;
@@ -49,4 +48,16 @@
 
   margin: 0 1rem;
   cursor: pointer;
+}
+
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu_container button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #ff4820;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: normal;
+  border-radius: 5px;
 }
