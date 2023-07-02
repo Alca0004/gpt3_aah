@@ -27,5 +27,28 @@
   font-size: 20px;
   font-height: 27px;
 
-  color: #81afdd;
+  color: var(--color-text);
+  margin-top: 1.5rem;
+}
+
+.gpt3__header-content__input {
+  width: 100%;
+  margin: 2rem 0 1rem;
+
+  display: flex;
+}
+
+.gpt3__header-content__input input {
+  flex: 2;
+  width: 100%;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+  background: var(--color-footer);
+  border: 2px solid var(--color-footer);
+  padding: 0 1rem;
+  outline: none;
+  color: #fff;
+  border-radius: 5px 0px 0px 5px;
 }
